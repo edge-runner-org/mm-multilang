@@ -30,6 +30,6 @@ jobs:
         uses: cloudbees-io-gha/register-build-artifact@v3
         with:
           name: "demo-go-service"
-          version: "tagGha"
+          version: "tagGha-tesr"
           url: "cbjfrog.saas-preprod.beescloud.com/jfrog-test-docker-target-repo/test-image:tagGha"
           cloudbees-url: "https://api.saas-preprod.beescloud.com"      
